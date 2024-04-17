@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 import visualizations
 
 # Загрузка данных
-data = pd.read_csv("ecommerce_customer_data_large.csv")
+data = pd.read_csv("csv/ecommerce_customer_data_large.csv")
 
 # Удаление строк с пропущенными значениями в целевой переменной
 data = data.dropna(subset=['Returns'])
